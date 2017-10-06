@@ -2,7 +2,8 @@
 #ifndef FILE_MANAGER_HPP
 #define FILE_MANAGER_HPP 
 
-#include <stdio.h>
+#include <iostream>
+#include <fstream>
 
 class CFile
 {

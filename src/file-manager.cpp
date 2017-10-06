@@ -1,6 +1,7 @@
 // File.cpp
-#include <stdio.h>
-#include <string.h>
+#include <iostream>
+#include <fstream>
+//#include <string.h>
 #include "main-defs.h"
 #include "file-manager.hpp"
 
