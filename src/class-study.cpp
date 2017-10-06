@@ -1,16 +1,17 @@
 #include <iostream>
 #include "class-study.hpp"
 
-void CTest::func()
+void CTest::printMemberNum()
 {
-    std::cout << "a: " << a << std::endl;
+    std::cout << "member_num_: " << member_num_ << std::endl;
     return;
 }
 
 int main()
 {
     CTest c_test;
-    c_test.func();
+    c_test.setMenberNum(10);
+    c_test.printMemberNum();
 
     return 0;
 }

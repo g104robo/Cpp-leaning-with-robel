@@ -4,10 +4,16 @@
 class CTest
 {
     public:
-    void func();
+    void printMemberNum();
+
+    //inline function
+    void setMenberNum(int member_num)
+    {
+        member_num_ = member_num;
+    }
 
     private:
-    int a;
+    int member_num_;
 };
 
 
