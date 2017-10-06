@@ -17,6 +17,8 @@ message(STATUS "CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 message(STATUS "CMAKE_CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
 set(CMAKE_CXX_FLAGS "-Wconversion")
 
-add_executable(class_test ./src/class-study.cpp)
-target_link_libraries(class_test m ssm ypspur )
+#add_executable(class_test ./src/class-study.cpp)
+#target_link_libraries(class_test)
 
+add_executable(file-manager ./src/file-manager.cpp)
+target_link_libraries(file-manager)
