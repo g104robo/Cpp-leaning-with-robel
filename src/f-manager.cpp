@@ -2,9 +2,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-//#include <string.h>
+#include <string.h>
 #include "main-defs.h"
-#include "file-manager.hpp"
+#include "f-manager.hpp"
 
 // コンストラクタ
 CFile::CFile()
